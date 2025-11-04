@@ -2,4 +2,8 @@
 .DS_Store
 backup
 chroma
-data/
+# Ignore everything inside data/
+data/*
+
+# But keep the folder itself (and its placeholder)
+!data/.gitkeep
